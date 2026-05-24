@@ -1,0 +1,69 @@
+### Health check
+GET http://127.0.0.1:8000/health
+
+### Create enquiry - pricing
+POST http://127.0.0.1:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "John Doe",
+  "channel": "whatsapp",
+  "message": "Can you share pricing for 10 users?"
+}
+
+### Create enquiry - unmatched (should auto-escalate via worker)
+POST http://127.0.0.1:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "Ava",
+  "channel": "email",
+  "message": "I need details about your office wallpaper colors."
+}
+
+### Create enquiry - invalid channel (422)
+POST http://127.0.0.1:8000/enquiry
+Content-Type: application/json
+
+{
+  "customer_name": "Bad Channel",
+  "channel": "sms",
+  "message": "hello"
+}
+
+### Schedule follow-up for open enquiry (replace id)
+POST http://127.0.0.1:8000/enquiry/1/follow-up
+Content-Type: application/json
+
+{
+  "delay_minutes": 45,
+  "message_template": "Following up on your enquiry."
+}
+
+### Schedule follow-up with invalid delay (422)
+POST http://127.0.0.1:8000/enquiry/1/follow-up
+Content-Type: application/json
+
+{
+  "delay_minutes": 0,
+  "message_template": "Invalid delay."
+}
+
+### Manual escalation for open enquiry (replace id)
+POST http://127.0.0.1:8000/enquiry/1/escalate
+Content-Type: application/json
+
+{
+  "reason": "Customer requested live support."
+}
+
+### Escalation reason too short (422)
+POST http://127.0.0.1:8000/enquiry/1/escalate
+Content-Type: application/json
+
+{
+  "reason": "x"
+}
+
+### History timeline (replace id)
+GET http://127.0.0.1:8000/enquiry/1/history

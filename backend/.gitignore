@@ -1,0 +1,10 @@
+.env
+closira.db
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+.vscode/
