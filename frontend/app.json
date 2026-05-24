@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Closira Dashboard",
+    "slug": "closira-dashboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f7f9fc"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#f7f9fc"
+      },
+      "package": "com.sarakshi_more.closiradashboard"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eae32b2e-c6f4-48ab-a1e1-6e70fe1ca9f3"
+      }
+    }
+  }
+}
