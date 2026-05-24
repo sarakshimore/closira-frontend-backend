@@ -125,7 +125,6 @@ frontend/
 
 ## Screenshots
 
-Attach screenshots (device or simulator) for each required screen:
 - Home: `./screenshots/home.png`
 - Leads: `./screenshots/leads.png`
 - Escalations: `./screenshots/escalations.png`
@@ -142,19 +141,7 @@ If you host them remotely, replace with markdown image links:
 ![Conversation Detail](https://your-link/conversation-detail.png)
 ```
 
-## Screen Recording
+## Walkthrough Video Link
 
-Add a short screen recording covering full app navigation:
-- Recording link: `PASTE_SCREEN_RECORDING_URL_HERE`
-
-## 2–5 Minute Walkthrough Video
-
-Add a short walkthrough explaining:
-- Product intent and target user (SMB owner)
-- Navigation architecture
-- Component architecture and reusable badge/card system
-- Mock data approach and API-ready schema
-- Key UX decisions (status chips, urgency, empty states, timeline)
-
-Submission link:
-- Walkthrough video: `PASTE_WALKTHROUGH_VIDEO_URL_HERE`
+A 2-min recording covering full app navigation:
+- Recording link: https://drive.google.com/file/d/1OuV8z5oE-elf90NOXrDkMbXHyyLOLDPh/view?usp=sharing
