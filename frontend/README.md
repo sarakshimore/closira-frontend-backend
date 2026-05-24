@@ -125,21 +125,22 @@ frontend/
 
 ## Screenshots
 
-- Home: `./screenshots/home.png`
-- Leads: `./screenshots/leads.png`
-- Escalations: `./screenshots/escalations.png`
-- Follow-ups: `./screenshots/followups.png`
-- Conversation Detail: `./screenshots/conversation-detail.png`
+### Home: 
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/dfff247d-78b8-41cb-86fd-78cadd1b5369" />
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/4823bd4e-1296-409c-ab71-f519d120a110" />
 
-If you host them remotely, replace with markdown image links:
+### Leads: 
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/1f800a5e-72ce-48e1-a01b-6a991522b5e3" />
 
-```md
-![Home](https://your-link/home.png)
-![Leads](https://your-link/leads.png)
-![Escalations](https://your-link/escalations.png)
-![Follow-ups](https://your-link/followups.png)
-![Conversation Detail](https://your-link/conversation-detail.png)
-```
+### Escalations: 
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/681c6f2f-4d67-4a60-8517-26b55615223f" />
+
+### Follow-ups:
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/639cff07-b373-44da-aace-e1f49047c9e8" />
+
+### Conversation Detail:
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/5e45083f-96e1-4330-be47-a50f49176a84" />
+<img width="480" height="960" alt="image" src="https://github.com/user-attachments/assets/a89b7c54-0ea8-49c5-9add-520c5707132d" />
 
 ## Walkthrough Video Link
 
