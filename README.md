@@ -112,7 +112,7 @@ The frontend is a mobile dashboard prototype for SMB owners to monitor customer 
 
 ---
 
-## Run Frontend
+### Run Frontend
 
 Go to frontend:
 
@@ -133,6 +133,12 @@ npx expo start
 ```
 
 Scan QR code using Expo Go.
+
+---
+
+## Video Walkthrough Link
+- Backend: https://drive.google.com/file/d/1gftmAQ_2U3phFwJUJXFHF6FXEoWFcFrx/view?usp=sharing
+- Frontend: https://drive.google.com/file/d/1OuV8z5oE-elf90NOXrDkMbXHyyLOLDPh/view?usp=sharing
 
 ---
 
