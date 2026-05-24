@@ -266,4 +266,4 @@ docker rm closira-redis
 - Video walkthrough (2-5 min): add link below before submission
 
 ### Video Walkthrough Link
-- `VIDEO_LINK_HERE`
+- https://drive.google.com/file/d/1gftmAQ_2U3phFwJUJXFHF6FXEoWFcFrx/view?usp=sharing
